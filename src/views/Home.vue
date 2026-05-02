@@ -121,13 +121,13 @@ export default {
 /* Responsivo para celulares pequeños */
 @media (max-width: 480px) {
   .contenido {
-    height: 80vh;
+    height: 40vh;
     padding: 1.5rem 1rem;
     margin-top: 0vh;
   }
 
   .titulo-img {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .texto h2 {
@@ -139,7 +139,7 @@ export default {
   }
 
   .botones {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -157,24 +157,31 @@ export default {
     padding: 1rem;
   }
 
+
   .piece-top-left {
-    width: 125px;
-    top: 118px;
-    left: 54px;
+    width: 40%;
+    top: 10%;
+    left: 17%;
   }
 
   .piece-top-right {
-    width: 105px;
-    right: -20px;
+    width: 45%;
+    top: -7%;
+    right: -10%;
+    filter: blur(2px);
   }
 
   .piece-bottom-left {
-    width: 120px;
+    width: 45%;
+    bottom: 0%;
+    left: 1%;
+    filter: blur(2px);
   }
 
   .piece-bottom-right {
-    width: 86px;
-    right: 36px;
+    width: 30%;
+    bottom: 13%;
+    right: 12%;
   }
 }
 </style>

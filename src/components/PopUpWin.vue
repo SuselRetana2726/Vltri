@@ -157,4 +157,9 @@ export default {
   margin-top: 4vh;  
 }
 
+@media (max-width: 480px) {
+  .popup-icono {
+    width: 50%;
+  }
+}
 </style>
