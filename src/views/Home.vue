@@ -170,12 +170,11 @@ export default {
     cursor: pointer;
     padding: 1rem;
   }
-
-
+  
   .piece-top-left {
     width: 40%;
-    top: 10%;
-    left: 17%;
+    top: 1%;
+    left: -5%;
   }
 
   .piece-top-right {
