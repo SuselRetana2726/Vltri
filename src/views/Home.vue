@@ -4,6 +4,8 @@
     <img class="piece piece-top-right" src="/images/Herramienta4.png" alt="" />
     <img class="piece piece-bottom-left" src="/images/Herramienta1.png" alt="" />
     <img class="piece piece-bottom-right" src="/images/Herramienta2.png" alt="" />
+    <img class="piece logo-top-right" src="/images/logo1.png" alt="" />
+    <img class="piece logo-top-left" src="/images/logo2.png" alt="" />
     <div class="contenido">
       <img src="/images/titulohome.png" alt="Título del juego" class="titulo-img" />
       <div class="botones">
@@ -93,8 +95,20 @@ export default {
 
 .piece-top-left {
   width: 40%;
-  top: 10%;
-  left: 17%;
+  top: 1%;
+  left: -5%;
+}
+
+.logo-top-left {
+  width: 30%;
+  top: 25%;
+  left: 13%;
+}
+
+.logo-top-right {
+  width: 30%;
+  top: 25%;
+  right: 13%;
 }
 
 .piece-top-right {
